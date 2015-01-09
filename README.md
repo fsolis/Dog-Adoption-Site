@@ -61,12 +61,15 @@ Dog-Adoption-Site
 * to change it to another directory edit /etc/apache2/apache2.conf
 * for this project we will use /var/www/html/
 
-#### Dependencies ####
+#### Dependencies
 * N/A
-#### Database configuration ####
+
+#### Database configuration 
 * N/A
+
 #### How to run tests ####
 * N/A
+
 #### Initial Repository Clone ####
 * THIS STEP ASSUMES YOU HAVE YOUR COMPUTER PRIVATE KEY ASSOCIATED WITH YOUR ACCOUNT
 * 1. Create a directory where you want hold all your files 
