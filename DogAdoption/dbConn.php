@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$dbName = "soli7352"; 
-$username = "soli7352"; 
-$pwd = "33d6f3c123d5d46"; 
+$dbName = "DogAdoptionCenter"; 
+$username = "fsolis"; 
+$pwd = "apple117"; 
 
 //creates connection
 $dbConn = new PDO("mysql:host=".$host.";dbname=".$dbName, $username, $pwd);

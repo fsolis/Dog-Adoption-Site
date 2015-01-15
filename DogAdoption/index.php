@@ -9,12 +9,12 @@
 			header("location:admin.php");
 		}
 	}
-	$sql = "SELECT * FROM final_history";
+	$sql = "SELECT * FROM AdoptionHistory";
  	$stmt = $dbConn->prepare($sql);
  	$stmt->execute();
  	$record = $stmt->fetchAll();
 	
-	$path = "uploadFiles/fsolis";
+	$path = "uploadFiles/DogMedia";
 ?>
 <html lang="en">
 <head>
@@ -38,13 +38,12 @@
 
 <body>
   <div class="header">
-      <h1>Solis Dog Rescue Center</h1>
+      <h1>Dog Rescue Center</h1>
   </div>
   <div class="login">
   		<div id="leftlogin">
   			<!--Error Will Be Displayed-->
   			<?php 
-			$_SESSION['error']="ADMIN:test,test, CLIENT:bob,bob";
               		if (isset($_SESSION['error']))
 			  		{
 						echo"<p id=\"error\">".$_SESSION['error']."</p>";
